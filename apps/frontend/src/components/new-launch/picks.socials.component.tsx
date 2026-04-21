@@ -50,7 +50,7 @@ export const PicksSocialsComponent: FC<{ toolTip?: boolean }> = ({
                 >
                   <div
                     onClick={() => {
-                      if (existingy.integration) {
+                      if (existing.integration) {
                         return;
                       }
                       addOrRemoveSelectedIntegration(integration, {});
